@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85ED2C"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnTap"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginRight="30dp"
+        android:background="#EF1F1F"
+        android:text="@string/btnTap"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTapped" />
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="178dp"
+        android:background="#F5C859"
+        android:gravity="center_horizontal"
+        android:text="@string/timer"
+        android:textColor="#0E0E0E"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTapped"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="#4C9AE7"
+        android:gravity="center_horizontal"
+        android:text="@string/tappedTimes"
+        android:textColor="#0E0E0E"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTimer" />
+
+    <Button
+        android:id="@+id/btnStartTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="120dp"
+        android:background="#1F1D1D"
+        android:shadowColor="#1E1C1C"
+        android:text="Start  Timer Now"
+        android:textColor="#F9F5F5"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTap" />
+</androidx.constraintlayout.widget.ConstraintLayout>

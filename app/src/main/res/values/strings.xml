@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fingers Speed Game</string>
+    <string name="btnTap">TAP HERE!!</string>
+    <string name="timer">60</string>
+    <string name="tappedTimes">500</string>
+    <string name="alertWinTitle">Congrats!! You won</string>
+    <string name="alertLoseTitle">Game is finished!! You LOST</string>
+    <string name="alertMessageTitle">Do you want to Play Again</string>
+    <string name="setPositiveButtonTitle">Play Again</string>
+    <string name="setNegativeButtonTitle">No , Exit The Game</string>
+</resources>
